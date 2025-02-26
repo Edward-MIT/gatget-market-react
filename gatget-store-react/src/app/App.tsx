@@ -1,13 +1,12 @@
 import React from "react";
 import "../css/app.css";
+import { Button } from "@mui/material";
 
 function App() {
-  return <div>HOME</div>;
+  return <div>  <Button variant="text">Text</Button>
+  <Button variant="contained">Contained</Button>
+  <Button variant="outlined">Outlined</Button></div>;
+
 }
 
 export default App;
-
-
-
-
-
