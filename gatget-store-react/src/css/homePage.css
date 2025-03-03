@@ -1,0 +1,175 @@
+.hero-section {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  padding: 80px 0;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-title {
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* fearuted Products */
+
+.featured-products {
+  padding: 60px 0;
+  background: #f8f9fa;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.product-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  height: 200px;
+  object-fit: contain;
+  padding: 15px;
+  background: #fff;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  color: #3776CC;
+  font-size: 1.1rem;
+}
+
+/* categories section */
+
+
+.categories-section {
+  padding: 60px 0;
+  background: #ffffff;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.category-card {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.category-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.category-name {
+  font-weight: bold;
+  color: #333;
+}
+/* Best sellers section */
+
+.best-sellers-section {
+  padding: 60px 0;
+  background: #f8f9fa;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.best-seller-card {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.best-seller-card:hover {
+  transform: scale(1.05);
+}
+
+.best-seller-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.best-seller-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.best-seller-price {
+  font-size: 18px;
+  color: #555;
+}
+/* limited offer section*/
+
+.limited-offer-section {
+  padding: 80px 0;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #ffffff;
+}
+
+.limited-offer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer-text {
+  max-width: 50%;
+}
+
+.offer-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.offer-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.shop-now-button {
+  background: #ffffff;
+  color: #ff7e5f;
+  font-weight: bold;
+}
+
+.offer-image-box {
+  max-width: 40%;
+}
+
+.offer-image {
+  width: 100%;
+  max-width: 400px;
+}

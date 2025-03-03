@@ -1,7 +1,7 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import { Container, Stack, Box, Button } from "@mui/material";
 import "../../../css/app.css";
+import Basket from "./Busket";
 
 export function HomeNavbar() {
   const authMember = null;
@@ -53,6 +53,8 @@ export function HomeNavbar() {
                 <NavLink to="/contact" activeClassName="underline">Contact</NavLink>
               </Box>
             </Stack>
+
+            <Basket/>
             <Stack flexDirection="row" gap={2}>
               {!authMember ? (
                 <>
