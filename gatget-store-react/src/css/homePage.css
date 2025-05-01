@@ -31,15 +31,24 @@
 .featured-products {
   padding: 60px 0;
   background: #f8f9fa;
+  background-color: #feb47b;
+}
+.container-class{
+  background-color: aquamarine;
+  flex: auto;
 }
 
-.section-title {
+.section-title_1 {
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+  margin-top: -50px;
+  background-color: aqua;
+
 }
 
 .product-card {
   transition: transform 0.3s ease-in-out;
+  margin-top: auto;
 }
 
 .product-card:hover {

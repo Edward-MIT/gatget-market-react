@@ -12,8 +12,8 @@ const products = [
 const FeaturedProducts = () => {
   return (
     <Box className="featured-products">
-      <Container>
-        <Typography variant="h4" className="section-title" align="center">
+      <Container className="container-class">
+        <Typography variant="h2" className="section-title_1" align="center">
           Featured Products
         </Typography>
         <Grid container spacing={4} justifyContent="center">
