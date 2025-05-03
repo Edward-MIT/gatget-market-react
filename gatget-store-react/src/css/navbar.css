@@ -163,3 +163,169 @@
   background-repeat: no-repeat;
   filter: invert( 25%);
 }
+
+.other-navbar {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background: url('/public/img/discover.jpg');
+  background-size: cover;
+}
+
+.other-navbar .navbar-container .menu {
+   height:50px;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.other-navbar .navbar-container .menu .brand-logo{
+  width: 150px;
+  height: 80px;
+}
+
+.other-navbar .navbar-container .menu .links {
+ min-width:700px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+.other-navbar .navbar-container .menu .links .login-button {
+  background: #3776CC;
+  color: #f8f8ff;
+
+}
+
+.other-navbar .navbar-container .menu .user-avatar {
+ width: 50px;
+ height: 50px;
+ border-radius: 24px;
+}
+
+
+.other-navbar .navbar-container {
+  margin-top: 55px;
+}
+
+.other-navbar a {
+  text-decoration: none;
+}
+
+.other-navbar .hover-line a {
+  color: #f8f8ff;
+  z-index: 100;
+}
+
+.other-navbar .underline {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #d7b686;
+}
+
+.other-navbar .hover-line:after {
+  display: block;
+  content:"";
+  border-bottom: solid 2px #d7b686;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.other-navbar .hover-line:hover:after {
+  transform: scale(1);
+}
+
+.other-navbar div.hover-line:after {
+  transform-origin: 0% 50%;
+}
+
+/* Basket */
+
+.basket-menu {
+  padding: 16px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff0f5; /* pastel pushti fon */
+}
+
+.basket-item {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.basket-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.basket-item .remove-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: #ff4d4f;
+}
+
+.basket-item .item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.basket-item .quantity-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.basket-item .quantity-buttons button {
+  padding: 2px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.basket-item .quantity-buttons button:hover {
+  background-color: #ffe6f0;
+}
+
+.basket-total {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #444;
+}
+
+.basket-empty {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.basket-order-button {
+  width: 100%;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.basket-order-button:hover {
+  background-color: #c2185b;
+}
